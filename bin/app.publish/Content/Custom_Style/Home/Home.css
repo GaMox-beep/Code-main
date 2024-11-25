@@ -1,0 +1,77 @@
+﻿.item {
+    height: 100px auto;
+    background-color: #f8f9fa; /* Màu nền nhạt */
+    margin-right: 10px; /* Khoảng cách giữa các div theo chiều ngang */
+    margin-bottom: 20px; /* Khoảng cách giữa các div theo chiều dọc */
+    padding: 15px; /* Khoảng cách bên trong div */
+    border-radius: 10px; /* Bo tròn các góc của div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo bóng nhẹ */
+}
+.item p{
+    height:50px;
+}
+.item a{
+    text-decoration:none;
+    color: black;
+    font-weight:bold;
+}
+.item a :hover{
+
+}
+.item-price{
+    font-weight:bold;
+}
+.img-thumbnail{
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+
+tbody a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+thead{
+    background-color:black;
+}
+thead th{
+    color:white;
+    font-weight:bold;
+
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+    .pagination .page-item {
+        margin: 0 5px; /* Khoảng cách giữa các ô vuông */
+    }
+
+        .pagination .page-item a,
+        .pagination .page-item span {
+            display: block;
+            padding: 8px 12px; /* Kích thước ô vuông */
+            border: 1px solid #ddd;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px; /* Bo tròn các góc ô vuông */
+            min-width: 35px;
+            text-align: center;
+        }
+
+            .pagination .page-item.active a,
+            .pagination .page-item a:hover {
+                background-color: #007bff;
+                color: white;
+                border-color: #007bff;
+            }
